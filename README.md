@@ -1,1 +1,109 @@
-# ERO-STATIONERY
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ERO Stationery</title>
+
+<style>
+body{
+font-family:Arial,sans-serif;
+margin:0;
+padding:0;
+background:#f5f5f5;
+}
+
+header{
+background:#0077cc;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 2px 5px rgba(0,0,0,0.2);
+text-align:center;
+}
+
+button{
+background:green;
+color:white;
+border:none;
+padding:10px;
+border-radius:5px;
+cursor:pointer;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:20px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>ERO Stationery</h1>
+<p>உங்கள் நம்பகமான ஸ்டேஷனரி கடை | Your Trusted Stationery Store</p>
+</header>
+
+<section class="products">
+
+<div class="card">
+<h3>Classmate Notebook</h3>
+<p>₹50</p>
+<button onclick="order('Classmate Notebook - ₹50')">
+WhatsApp Order
+</button>
+</div>
+
+<div class="card">
+<h3>Apsara Pencil</h3>
+<p>₹5</p>
+<button onclick="order('Apsara Pencil - ₹5')">
+WhatsApp Order
+</button>
+</div>
+
+<div class="card">
+<h3>Sketch Pen Set</h3>
+<p>₹60</p>
+<button onclick="order('Sketch Pen Set - ₹60')">
+WhatsApp Order
+</button>
+</div>
+
+</section>
+
+<footer>
+📞 9344608590<br>
+Bharathidasan Street, Periya Valasu,
+Veerapanchatram, Erode - 638004
+</footer>
+
+<script>
+function order(product){
+let number="919344608590";
+let text=`Hello ERO Stationery, I want to order: ${product}`;
+window.open(
+`https://wa.me/${number}?text=${encodeURIComponent(text)}`
+);
+}
+</script>
+
+</body>
+</html>
