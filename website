@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ERO Stationery</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f5f5;
+}
+
+header{
+background:#0066cc;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#004c99;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+}
+
+.hero{
+padding:60px 20px;
+text-align:center;
+background:white;
+}
+
+.hero h1{
+font-size:40px;
+color:#0066cc;
+}
+
+.hero p{
+margin-top:10px;
+font-size:18px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#28a745;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+section{
+padding:50px 20px;
+}
+
+.section-title{
+text-align:center;
+color:#0066cc;
+margin-bottom:30px;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.price{
+color:red;
+font-weight:bold;
+margin-top:10px;
+}
+
+.review{
+background:white;
+padding:20px;
+margin-bottom:15px;
+border-radius:10px;
+}
+
+.contact{
+text-align:center;
+background:#0066cc;
+color:white;
+}
+
+footer{
+background:#004c99;
+color:white;
+text-align:center;
+padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>ERO STATIONERY</h1>
+<p>Your One-Stop Stationery Destination</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#products">Products</a>
+<a href="#order">Order</a>
+<a href="#reviews">Reviews</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+<h1>Welcome to ERO Stationery</h1>
+<p>School • Office • Art & Craft • Return Gifts</p>
+<a href="https://wa.me/919344608590" class="btn">
+Order on WhatsApp
+</a>
+</section>
+
+<section id="about">
+<h2 class="section-title">About Us</h2>
+<p style="text-align:center;">
+Quality stationery products at affordable prices.
+Serving students, teachers and offices.
+</p>
+</section>
+
+<section id="products">
+<h2 class="section-title">Our Products</h2>
+
+<div class="products">
+
+<div class="card">
+<h3>Notebook</h3>
+<p class="price">₹25 onwards</p>
+</div>
+
+<div class="card">
+<h3>Pen</h3>
+<p class="price">₹10</p>
+</div>
+
+<div class="card">
+<h3>Water Bottle</h3>
+<p class="price">₹125 onwards</p>
+</div>
+
+<div class="card">
+<h3>Return Gifts</h3>
+<p class="price">₹10 onwards</p>
+</div>
+
+<div class="card">
+<h3>Color Pencil Set</h3>
+<p class="price">₹50 onwards</p>
+</div>
+
+<div class="card">
+<h3>Geometry Box</h3>
+<p class="price">₹60 onwards</p>
+</div>
+
+</div>
+</section>
+
+<section id="order">
+<h2 class="section-title">Online Order</h2>
+<div class="card">
+<h3>WhatsApp Order</h3>
+<p>Send Product Name or Photo</p>
+<p>📞 9344608590</p>
+<a href="https://wa.me/919344608590" class="btn">
+Order Now
+</a>
+</div>
+</section>
+
+<section id="reviews">
+<h2 class="section-title">Customer Reviews</h2>
+
+<div class="review">
+⭐⭐⭐⭐⭐ Best stationery shop with good prices.
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐ Quality products and friendly service.
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐ Good collection for school students.
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+<p>📍 Bharathidasan Street, Periya Valasu</p>
+<p>Veerapanchatram, Erode - 638004</p>
+<p>📞 9344608590</p>
+</section>
+
+<footer>
+❤️ Thank You For Visiting ERO Stationery ❤️
+<br>
+Study Well • Dream Big • Achieve Success
+</footer>
+
+</body>
+</html>
